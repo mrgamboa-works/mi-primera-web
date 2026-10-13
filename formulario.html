@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Victor Manuelle Gamboa García - ASIR 2 -->
+</head>
+
+<body>
+    <div class="menu">
+        <a href="index.html">INICIO</a>
+        <a href="bicicletas.html">BICICLETAS</a>
+    </div>
+    <div class="titulo">
+        <h1>FORMULARIO</h1>
+    </div>
+    <div class="msj">
+        <p>
+            A continuación, rellene el formulario e indique el modelo de bicicleta que está buscando para que uno de
+            nuestros miembros se comunique con usted lo antes posible, gracias de antemano.
+        </p>
+    </div>
+    <div class="formulario">
+        <form action="">
+            <div class="contenedor">
+
+                <!-- Nombre -->
+                <div class="campos">
+                    <label for="nombre">Nombre:</label>
+                </div>
+                <div class="datos">
+                    <input required type="text" name="caja-nombre" id="Nombre" placeholder="Vitol Manulo">
+                </div>
+
+                <!-- Apellidos -->
+                <div class="campos">
+                    <label for="apellidos">Apellidos:</label>
+                </div>
+                <div class="datos">
+                    <input required type="text" name="caja-apellidos" id="Apellidos" placeholder="Gandola Alcancía">
+                </div>
+
+                <!-- Dirección -->
+                <div class="campos">
+                    <label for="direccion">Dirección:</label>
+                </div>
+                <div class="datos">
+                    <input required type="text" name="caja-direccion" id="Direccion" placeholder="Avenida Medanos de Coro">
+                </div>
+
+                <!-- Correo Electrónico -->
+                <div class="campos">
+                    <label for="correo">Correo Electrónico:</label>
+                </div>
+                <div class="datos">
+                    <input required type="email" name="caja-correo" id="Correo" placeholder="vitolmanulo@gmail.com">
+                </div>
+
+                <!-- Teléfono -->
+                <div class="campos">
+                    <label for="telefono">Teléfono:</label>
+                </div>
+                <div class="datos">
+                    <input required type="tel" name="caja-telefono" id="Telefono" placeholder="12345678">
+                </div>
+
+                <!-- Fecha de Nacimiento -->
+                <div class="campos">
+                    <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+                </div>
+                <div class="datos">
+                    <input required type="date" name="caja-fecha-nacimiento" id="Fecha-Nacimiento">
+                </div>
+
+                <!-- Sexo -->
+                <div class="campos">
+                    <label for="sexo">Sexo:</label>
+                </div>
+                <div class="datos">
+                    <input required type="radio" name="caja-sexo" id="Hombre" value="hombre">Hombre
+                    <input required type="radio" name="caja-sexo" id="Mujer" value="mujer">Mujer
+                </div>
+
+                <!-- Nuevas, usadas o ambas -->
+                <div class="campos">
+                    <label for="antiguedad">Antigüedad:</label>
+                </div>
+                <div class="datos">
+                    <input type="checkbox" name="caja-antiguedad" id="Nueva" value="nueva">Nueva
+                    <input type="checkbox" name="caja-antiguedad" id="Usada" value="usada">Usada
+                </div>
+
+                <!-- Observaciones -->
+                <div class="campos">
+                    <label for="observaciones">Observaciones:</label>
+                </div>
+                <div class="datos">
+                    <textarea name="caja-observaciones" id="Caja-Observaciones" placeholder="Escriba aquí"></textarea>
+                </div>
+                <div class="botones">
+                    <input required type="reset" value="Restablecer" name="restablecer">
+                </div>
+                <div class="botones" id="Enviar">
+                    <input required type="submit" value="Enviar" name="enviar">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

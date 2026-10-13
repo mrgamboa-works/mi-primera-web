@@ -1,0 +1,118 @@
+/* Aplica para TODAS las páginas */
+body {
+    margin: 15px;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(233, 254, 217);
+}
+
+.titulo {
+    text-align: center;
+}
+
+.contenido {
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+/* Manipulo los tres enlaces al mismo tiempo */
+.menu * {
+    padding: 5px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: darkblue;
+    background-color: white;
+}
+
+/* Quedan un poco más interactivos */
+.menu *:hover {
+    color: hsl(271, 100%, 50%);
+    background-color: hsl(60, 100%, 50%);
+}
+
+p {
+    text-align: center;
+    padding: 5px;
+}
+
+/* Contenedor para centrar las imágenes... */
+.fotos {
+    text-align: center;
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+}
+
+/* Así consigo que el texto se agrupe en el centro con las imágenes de la clase ".fotos" */
+.fotos * {
+    text-align: center;
+}
+
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+.msj {
+    color: darkred;
+    font-size: x-small;
+    font-weight: bold;
+    width: 400px;
+    margin: auto;
+}
+
+.formulario {
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: hsl(37, 89%, 59%);
+    margin: auto;
+    width: 450px;
+    padding: 15px;
+}
+
+.contenedor {
+    /* background-color: yellow; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+
+}
+
+/* .contenedor div {
+    border: 2px solid black;
+} */
+
+.campos {
+    text-align: right;
+}
+
+.datos {
+    text-align: left;
+}
+
+
+.botones * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    height: 30px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+}
+
+.botones *:hover {
+    color: white;
+    background-color: crimson;
+}
+
+.botones#Enviar *:hover{
+    color: white;
+    background-color: darkgreen;
+}
